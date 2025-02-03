@@ -3,7 +3,7 @@
         {
             "id": 1,
             "placa": "ABC-1234",
-            "marca-modelo": "Fiat Uno",
+            "marca_modelo": "Fiat Uno",
             "cor": "Vermelho",
             "tipo": "Carro",
             "unidade": "1"
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "placa": "DEF-5678",
-            "marca-modelo": "Volkswagen Gol",
+            "marca_modelo": "Volkswagen Gol",
             "cor": "Preto",
             "tipo": "Carro",
             "unidade": "2"
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "placa": "GHI-9101",
-            "marca-modelo": "Honda CG 160",
+            "marca_modelo": "Honda CG 160",
             "cor": "Azul",
             "tipo": "Moto",
             "unidade": "3"
