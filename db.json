@@ -1,0 +1,132 @@
+{
+    "veiculos": [
+        {
+            "id": 1,
+            "placa": "ABC-1234",
+            "marca-modelo": "Fiat Uno",
+            "cor": "Vermelho",
+            "tipo": "Carro",
+            "unidade": "1"
+        },
+        {
+            "id": 2,
+            "placa": "DEF-5678",
+            "marca-modelo": "Volkswagen Gol",
+            "cor": "Preto",
+            "tipo": "Carro",
+            "unidade": "2"
+        },
+        {
+            "id": 3,
+            "placa": "GHI-9101",
+            "marca-modelo": "Honda CG 160",
+            "cor": "Azul",
+            "tipo": "Moto",
+            "unidade": "3"
+        }
+    ],
+    "prestadores_servico": [
+        {
+            "id": 1,
+            "nome": "João Silva",
+            "cpf": "123.456.789-00",
+            "empresa": "Serviços Gerais Ltda",
+            "celular_comercial": "(11) 98765-4321",
+            "celular_pessoal": "(11) 91234-5678",
+            "email": "joao.silva@servicos.com",
+            "destino": "Manutenção"
+        },
+        {
+            "id": 2,
+            "nome": "Maria Oliveira",
+            "cpf": "987.654.321-00",
+            "empresa": "Limpeza Rápida",
+            "celular_comercial": "(21) 99876-5432",
+            "celular_pessoal": "(21) 92345-6789",
+            "email": "maria.oliveira@limpeza.com",
+            "destino": "Limpeza"
+        },
+        {
+            "id": 3,
+            "nome": "Carlos Pereira",
+            "cpf": "456.789.123-00",
+            "empresa": "Segurança Total",
+            "celular_comercial": "(31) 98765-1234",
+            "celular_pessoal": "(31) 91234-5678",
+            "email": "carlos.pereira@seguranca.com",
+            "destino": "Segurança"
+        }
+    ],
+    "encomenda": [
+        {
+            "id": 1,
+            "destinatario": "Ana Souza",
+            "data_hora": "2023-10-01T10:00:00",
+            "recebedor": "João Silva"
+        },
+        {
+            "id": 2,
+            "destinatario": "Bruno Lima",
+            "data_hora": "2023-10-02T11:30:00",
+            "recebedor": "Maria Oliveira"
+        },
+        {
+            "id": 3,
+            "destinatario": "Carla Mendes",
+            "data_hora": "2023-10-03T14:45:00",
+            "recebedor": "Carlos Pereira"
+        }
+    ],
+    "areas_comum": [
+        {
+            "id": 1,
+            "nome": "Salão de Festas",
+            "descricao": "Espaço para eventos e festas",
+            "capacidade_max": 100,
+            "horario_utilizacao": "08:00 - 22:00",
+            "restricoes": "Proibido som alto após as 22:00"
+        },
+        {
+            "id": 2,
+            "nome": "Piscina",
+            "descricao": "Piscina para uso dos moradores",
+            "capacidade_max": 30,
+            "horario_utilizacao": "06:00 - 20:00",
+            "restricoes": "Proibido mergulhos"
+        },
+        {
+            "id": 3,
+            "nome": "Academia",
+            "descricao": "Espaço com equipamentos de ginástica",
+            "capacidade_max": 20,
+            "horario_utilizacao": "24 horas",
+            "restricoes": "Proibido menores de 16 anos"
+        }
+    ],
+    "realizacao_obras": [
+        {
+            "id": 1,
+            "data_inicio": "2023-09-01",
+            "data_termino": "2023-09-15",
+            "empresa_prestadora": "Construtora ABC",
+            "descricao": "Reforma da fachada",
+            "status": "Aprovado"
+        },
+        {
+            "id": 2,
+            "data_inicio": "2023-10-01",
+            "data_termino": "2023-10-10",
+            "empresa_prestadora": "Pinturas XYZ",
+            "descricao": "Pintura das áreas comuns",
+            "status": "Em análise"
+        },
+        {
+            "id": 3,
+            "data_inicio": "2023-11-01",
+            "data_termino": "2023-11-20",
+            "empresa_prestadora": "Manutenção 123",
+            "descricao": "Troca de pisos",
+            "status": "Negado"
+        }
+    ]
+}
