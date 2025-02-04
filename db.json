@@ -2,26 +2,32 @@
     "veiculos": [
         {
             "id": 1,
+            "morador": "Ana Souza",
             "placa": "ABC-1234",
             "marca_modelo": "Fiat Uno",
             "cor": "Vermelho",
             "tipo": "Carro",
+            "condominio": "Condomínio 1",
             "unidade": "1"
         },
         {
             "id": 2,
+            "morador": "Bruno Lima",
             "placa": "DEF-5678",
             "marca_modelo": "Volkswagen Gol",
             "cor": "Preto",
             "tipo": "Carro",
+            "condominio": "Condomínio 2",
             "unidade": "2"
         },
         {
             "id": 3,
+            "morador": "Carla Mendes",
             "placa": "GHI-9101",
             "marca_modelo": "Honda CG 160",
             "cor": "Azul",
             "tipo": "Moto",
+            "condominio": "Condomínio 3",
             "unidade": "3"
         }
     ],
@@ -61,19 +67,22 @@
         {
             "id": 1,
             "destinatario": "Ana Souza",
-            "data_hora": "2023-10-01T10:00:00",
+            "data": "2023-01-20",
+            "hora": "08:00",
             "recebedor": "João Silva"
         },
         {
             "id": 2,
             "destinatario": "Bruno Lima",
-            "data_hora": "2023-10-02T11:30:00",
+            "data": "2023-02-10",
+            "hora": "10:30",
             "recebedor": "Maria Oliveira"
         },
         {
             "id": 3,
             "destinatario": "Carla Mendes",
-            "data_hora": "2023-10-03T14:45:00",
+            "data": "2023-03-15",
+            "hora": "14:00",
             "recebedor": "Carlos Pereira"
         }
     ],
@@ -106,6 +115,7 @@
     "realizacao_obras": [
         {
             "id": 1,
+            "condominio": "Condomínio 1",
             "data_inicio": "2023-09-01",
             "data_termino": "2023-09-15",
             "empresa_prestadora": "Construtora ABC",
@@ -114,6 +124,7 @@
         },
         {
             "id": 2,
+            "condominio": "Condomínio 2",
             "data_inicio": "2023-10-01",
             "data_termino": "2023-10-10",
             "empresa_prestadora": "Pinturas XYZ",
@@ -122,6 +133,7 @@
         },
         {
             "id": 3,
+            "condominio": "Condomínio 3",
             "data_inicio": "2023-11-01",
             "data_termino": "2023-11-20",
             "empresa_prestadora": "Manutenção 123",
