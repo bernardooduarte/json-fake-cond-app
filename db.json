@@ -37,6 +37,8 @@
             "nome": "João Silva",
             "cpf": "123.456.789-00",
             "empresa": "Serviços Gerais Ltda",
+            "condominio": "Condomínio do Sol",
+            "unidade": "1",
             "celular_comercial": "(11) 98765-4321",
             "celular_pessoal": "(11) 91234-5678",
             "email": "joao.silva@servicos.com",
@@ -47,6 +49,8 @@
             "nome": "Maria Oliveira",
             "cpf": "987.654.321-00",
             "empresa": "Limpeza Rápida",
+            "condominio": "Jardim de Minas",
+            "unidade": "2",
             "celular_comercial": "(21) 99876-5432",
             "celular_pessoal": "(21) 92345-6789",
             "email": "maria.oliveira@limpeza.com",
@@ -57,6 +61,8 @@
             "nome": "Carlos Pereira",
             "cpf": "456.789.123-00",
             "empresa": "Segurança Total",
+            "condominio": "Bosque Imperial",
+            "unidade": "3",
             "celular_comercial": "(31) 98765-1234",
             "celular_pessoal": "(31) 91234-5678",
             "email": "carlos.pereira@seguranca.com",
@@ -67,6 +73,8 @@
         {
             "id": 1,
             "destinatario": "Ana Souza",
+            "condominio": "Bosque Imperial",
+            "unidade": "3",
             "data": "2023-01-20",
             "hora": "08:00",
             "recebedor": "João Silva"
@@ -74,6 +82,8 @@
         {
             "id": 2,
             "destinatario": "Bruno Lima",
+            "condominio": "Bosque Imperial",
+            "unidade": "3",
             "data": "2023-02-10",
             "hora": "10:30",
             "recebedor": "Maria Oliveira"
@@ -81,6 +91,8 @@
         {
             "id": 3,
             "destinatario": "Carla Mendes",
+            "condominio": "Bosque Imperial",
+            "unidade": "3",
             "data": "2023-03-15",
             "hora": "14:00",
             "recebedor": "Carlos Pereira"
@@ -92,7 +104,8 @@
             "nome": "Salão de Festas",
             "descricao": "Espaço para eventos e festas",
             "capacidade_max": 100,
-            "horario_utilizacao": "08:00 - 22:00",
+            "horario_utilizacao_inicio": "08:00",
+            "horario_utilizacao_fim": "22:00",
             "restricoes": "Proibido som alto após as 22:00"
         },
         {
@@ -100,7 +113,8 @@
             "nome": "Piscina",
             "descricao": "Piscina para uso dos moradores",
             "capacidade_max": 30,
-            "horario_utilizacao": "06:00 - 20:00",
+            "horario_utilizacao_inicio": "06:00",
+            "horario_utilizacao_fim": "20:00",
             "restricoes": "Proibido mergulhos"
         },
         {
@@ -108,14 +122,16 @@
             "nome": "Academia",
             "descricao": "Espaço com equipamentos de ginástica",
             "capacidade_max": 20,
-            "horario_utilizacao": "24 horas",
+            "horario_utilizacao_inicio": "00:00",
+            "horario_utilizacao_fim": "23:59",
             "restricoes": "Proibido menores de 16 anos"
         }
     ],
     "realizacao_obras": [
         {
             "id": 1,
-            "condominio": "Condomínio 1",
+            "condominio": "Condomínio do Sol",
+            "unidade": "1",
             "data_inicio": "2023-09-01",
             "data_termino": "2023-09-15",
             "empresa_prestadora": "Construtora ABC",
@@ -124,7 +140,8 @@
         },
         {
             "id": 2,
-            "condominio": "Condomínio 2",
+            "condominio": "Jaridm de Minas",
+            "unidade": "2",
             "data_inicio": "2023-10-01",
             "data_termino": "2023-10-10",
             "empresa_prestadora": "Pinturas XYZ",
@@ -133,7 +150,8 @@
         },
         {
             "id": 3,
-            "condominio": "Condomínio 3",
+            "condominio": "Bosque Imperial",
+            "unidade": "3",
             "data_inicio": "2023-11-01",
             "data_termino": "2023-11-20",
             "empresa_prestadora": "Manutenção 123",
